@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: rgb(165,180,255);
+    background: radial-gradient(circle, rgba(165,180,255,1) 0%, rgba(6,6,255,1) 100%);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 6px;
+}
+main{
+    padding-left: 30px;
+}
+input{
+    margin: 5px;
+    border: 1px black solid;
+}
+input:hover{
+    background-color: rgb(190, 190, 190);
+}
+#cadastrar{
+    background: rgb(102,224,98);
+    background: radial-gradient(circle, rgba(102,224,98,1) 0%, rgba(22,203,1,1) 100%);
+}
+#cancelar{
+    background: rgb(220,101,101);
+    background: radial-gradient(circle, rgba(220,101,101,1) 0%, rgba(203,1,1,1) 100%);
+}
